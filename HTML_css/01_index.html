@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- DOCTYPE est la premiére balise obligatoire dans une page HTML : elle désigne le type de document pour le navigateur => ici html -->
+<html lang="fr">
+    <!--la balise HTML contient toute la page HTML interprétée par le navigateur, le développer code TOUT entre  la balise ouverte et la fermante -->
+    <!--l'attribut LANG de la balise html désigne désigne la langue utilisée côté internaute-->
+    <head>
+        <!--HEAD contient les paramètres de la page HTML sont invisibles à l'affichage pour l'internaute -->
+        <meta charset="UTF-8">
+           <!-- encodage des caractères pour la gestion de l'affichage des caractères spéciaux-->
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <!-- contrôle la mise en page sur les navigateurs mobiles, ici le 1.0 signifie qu'il n'y a pas de zoom sur mobile-->
+           <meta http-equiv="X-UA-Compatible" content="ie=edge">
+           <!-- compatibilité avec le navigateur Edge-->
+           <meta name="description" content="Ma 1ère page HTML">
+           <!-- description qui apparait sous le nom du site dans un moteur de recherche -->
+           <meta name="author" content="Layla say hello world">
+           <!--auteur du site-->
+        <title>Structure</title>
+        <!-- titre de la page  =>s'affiche dans l'onglet du navigateur -->
+        <link rel="stylesheet" href="css/01_index.css">
+        <!-- relie le fichier de style au fichier html-->
+        <link href="https://fonts.googleapis.com/css?family=Miss+Fajardose|Henny+Penny" rel="stylesheet">   
+    </head>
+    <body>
+        <!-- TOUT ce qui sera affiché à l'écrant s'écrit entre la balise ouvrante et la fermante de BODY-->
+        C'est dans dix ans je m'en irai
+J'entends le loup et le renard chanter
+J'entends le loup, le renard et la belette
+J'entends le loup et le renard chanter
+C'est dans neuf ans je m'en irai
+La jument de Michao a passé dans le pré
+La jument de Michao et son petit poulain
+A passé dans le pré et mangé tout le foin
+L'hiver viendra les gars, l'hiver viendra
+La jument de Michao, elle s'en repentira le tout dans le &lt;body>.
+<!-- &lt; permet de ne pas prendre en compte une balise html -->
+
+<!-- Les titres-->
+<H1>Titre</H1>
+<H2>Titre</H2>
+<H3>Titre</H3>
+<H4>Titre</H4>
+<H5>Titre</H5>
+<H6>Titre</H6>
+<!--h$6{titre h$}-->
+
+<!--Les paragraphes-->
+<p>Les paragraphes sont entourés d'une balise &lt;p>.</p>
+<pre>Un paragraphe préformaté avec &lt;pre>.</pre>
+
+<!--p>lorem*2-->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque optio corrupti commodi ex nemo animi nulla qui sit! Dolorum necessitatibus consequatur amet numquam quaerat optio debitis exercitationem placeat unde.</p>
+   
+<!--un retour à la ligne avec br-->
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque optio corrupti commodi ex nemo animi nulla qui sit!
+<br>
+Dolorum necessitatibus consequatur amet numquam quaerat optio debitis exercitationem placeat unde.
+
+<p>
+<!--une ligne séparatrice avec un retour à la ligne avec hr-->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tellus vitae metus rhoncus pulvinar eget sit amet nulla. Sed dictum, justo ac malesuada feugiat, justo leo gravida urna, at pulvinar massa urna nec ligula. Fusce vitae lorem neque. Donec nunc diam, blandit non sapien sit amet, suscipit dignissim ipsum. Donec quis nulla eu orci egestas aliquam. Sed sagittis, dolor vitae egestas varius, tellus turpis ultricies sem, nec condimentum lorem mi id risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur maximus lectus vitae ipsum volutpat maximus. Mauris eu risus metus.
+<hr>
+Mauris et semper magna, eu ullamcorper justo. Morbi dictum arcu nisl, ac tincidunt augue congue et. Sed laoreet aliquam porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer a imperdiet tortor. Sed feugiat lobortis eros. Phasellus at bibendum neque. Praesent finibus condimentum tellus, id accumsan nulla mattis ut. Donec sollicitudin eget diam ut tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dolor orci. Nulla tempus sollicitudin blandit. 
+</p>
+
+<!--Les mises en valeur-->
+<!-- STRONG => en gras-->
+<p>Bonjour ici c'est <strong>VLG 2018</strong>qui code !</p> 
+<!--em => en italique-->
+<p>Bonjour ici c'est <em>VLG 2018</em>qui code !</p>
+<!--mark => surligné en jaune-->
+<p>Bonjour ici c'est <mark>VLG 2018</mark>qui code !</p>
+
+<!--Les listes-->
+   <!--à puces-->
+   <ol>
+       <li1>chat</li1>
+       <li2>chien</li2>
+       <li3>cheval</li3>
+   </ol>
+  <!--numérotées-->
+   <ul>
+    <li1>chat</li1>
+    <li2>chien</li2>
+    <li3>cheval</li3>
+</ul>
+<!--Les liens-->
+<img src="https://vignette.wikia.nocookie.net/harrypotter/images/c/c6/Sortil%C3%A8ge_de_l%27Imperium_sur_une_araign%C3%A9e.gif/revision/latest?cb=20160429175314&path-prefix=fr" alt="foloeil"
+<!--Les images-->
+</body>
+</html>
