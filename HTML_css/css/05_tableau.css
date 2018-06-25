@@ -1,0 +1,23 @@
+* { /* l'etoile sélectionne tous les elements de la page html*/
+    font-family: cursive;
+}
+
+body {
+    width: 50%; /*largeur de ma page => 50% de l'écran*/
+    margin: 0 auto; /*je centre mon tableau en utilisant les marges automatiques*/
+}
+
+table{
+    border: 4px solid #29ac08; /*bordure - 3 valeurs: épaisseur / type de trait  / couleur*/
+    width: 90%; /*largeur du tableau par ra^pport à son contenant donc ici le body => règle de l'héritage en CSS*/
+    margin: 25px;
+}
+
+thead, tfoot{
+    background-color: rgb(217, 101, 233);
+    border: 2px solid #37fc06;
+}
+
+tbody{
+    border: 1px solid indigo;
+}

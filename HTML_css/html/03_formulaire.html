@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html :lang="fr">
+    <head>
+<meta charset="UTF8">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="Formulaire">
+<title>formulaire</title>
+<link rel="stylesheet" href="03_formulaire.css">
+</head>
+<body>
+    <!--je déclare mon formulaire avec la balise FORM-->
+    <form action="">
+        <fieldset>
+            <legend>Identité</legend>
+            <label for="">Pseudo</label>
+            <input type="text" placeholder="texte d'exemple" required><br>
+            <!--REQUIRED rend le champ obligatoire pour valider le formulaire-->
+
+            <!--mot de passe-->
+            <label for="">Mot de passe *</label> 
+            <input type="password" required><br>
+
+            <!--email-->
+            <label for="">Mail</label>
+            <input type="email" placeholder="moi.coucou@mail.fr"><br>
+
+            <!--fichier-->
+            <label for="">Photo</label>
+            <input type="file"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Questions</legend>
+
+            <!--cases à cocher-->
+            <label for="">Où part-on en vacances ?</label>
+            <p>
+                <input type="checkbox"> Chine
+                <input type="checkbox" checked> Australie 
+                <input type="checkbox"> Mars
+            </p>
+
+            <!--zone de texte-->
+            <label for="">Commentaire</label>
+            <!--je dimenstionne ma zone de texte avec les attributs COLS (colonnes = nb de caractères) et ROWS (rangs/lignes)-->
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        </fieldset>
+
+        <!--bouton d'envoi du formulaire-->
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+    </form>
+</body>

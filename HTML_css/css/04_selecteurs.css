@@ -1,0 +1,68 @@
+body {
+    font-size: 25px; /*taille de police en pixels*/
+}
+h1 {
+    background-color: aliceblue;
+    color: gold;
+}
+
+/*je cible TOUS les <p> qui sont dans la balise section*/
+section p {
+    color: dodgerblue;
+}
+
+/* le premier <p>*/
+section p:first-child {
+    color: crimson;
+}
+/*le dernier <p>*/
+section p:last-child {
+    color: navy;
+}
+/*les <p> paires*/
+section p:nth-child(even){
+    background: rgb(238, 255, 0);
+}
+
+/*les <p> impaires*/
+section p:nth-child(odd){
+    color: rgb(218, 32, 32);
+}
+/*les <p> 3 et 10*/
+section p:nth-child(3), section p:nth-child(10){
+    background: rgba(221, 176, 230, 0.377);
+}
+
+/*je cible la classe avec un point*/
+.zone1 {
+    color: aqua;
+}
+.zone2 {
+    color: chartreuse;
+}
+.lime {
+color: darkmagenta;
+}
+
+/*je cible un id avec # */
+#zone3 {
+    background-color: hotpink; /*EMMET pour background-color  => bgc + tab */
+}
+
+/*ajouter un avant */
+
+#zone3::before{
+    content: "rajouté avant";
+    background-color: fuchsia;
+}
+
+/*ajouter du contenus apres*/
+#zone3:after {
+    content: "rajouté apres";
+}
+
+/* 2éme puce de la liste*/
+li:nth-child(2){
+    background-color: darkorange;
+    color: rgb(189, 240, 101);
+}
