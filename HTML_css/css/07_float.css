@@ -1,0 +1,35 @@
+p{
+    background-color: rgb(251, 255, 0);
+}
+p span{ /*cible les <span> enfants d'une balise <p>*/
+    background-color: cadetblue;
+}
+body{
+    margin: auto;
+    background: url(../images/kZ6DHbq.jpg);
+    background-repeat: no-repeat;
+}
+
+div{
+    width: 90%; /* EMMET width : 90%; w90% + tab*/
+    background-color: rgb(151, 216, 241);
+    margin: 0 auto;
+
+}
+
+.photo{
+    height: 11vh; /*vh = viewwport height ou hauteur de l'écran*/
+    width: 18vw; /*vw = viewwport width ou largeur de l'écran*/
+    padding: 5vh; /*EMMET padding : 5vh; => pvh + tab*/
+    background: url(../images/fondo-transparente-del-trebol_1053-719.jpg);
+    background-repeat: no-repeat;
+    /*l'image ne se répète pas - EMMET background- repeat => bgr + tab*/
+    border: 8px double rgb(190, 6, 6); /*3 valeurs => taille, style et couleur*/
+    margin: 5vh; /*EMMET m2vh + tab*/
+    float: left; /*effet flottant plaçant les elements côte à côte alors que dans le flux naturel du web ils se placent les uns au dessus des autres*/
+}
+
+/*par convention  cette classe est placée à la fin du fichier css*/
+.clear{
+    clear: both;
+}

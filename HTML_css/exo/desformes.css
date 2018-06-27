@@ -1,0 +1,41 @@
+.c1 {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/patron-floral-transparente-con-fondo-de-color-liso_3811-5.jpg);
+    border-radius: 75px;
+}
+.green{
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 25%;
+    background-color: lightblue;
+}
+
+.lemon{
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 40%;
+    background-color: palevioletred;
+}
+
+.qqch{
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 25%;
+    background-image: url(../images/rose.jpg);
+   }
+
+.clear{
+    clear: both;
+}

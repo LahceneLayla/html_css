@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/06bis_liens.css">
+    <title>Les liens</title>
+</head>
+<body>
+    <h1>Les liens d'une page HTML ou la navigation</h1>
+
+    <h2 id="top">Les ancres : liens dans la même page</h2>
+    <!-- (p>a)*8-->
+    <p>
+        <a href="#interieur">Cliquer ici pour aller en page 2</a>
+    </p>
+    
+    <p>
+        <a href="#onglet">Cliquer ici pour aller en page 2</a>
+    </p>
+    
+    <p>
+        <a href="#site">un auter site</a>
+    </p>
+    
+    <p>
+        <a href="#telecharger">telecharger un document</a>
+    </p>
+    
+    <p>
+        <a href="#visualiser">visualiser le PDF</a>
+    </p>
+    
+    <p>
+        <a href="#download">Télecharger un PDF</a>
+    </p>
+    
+    <p>
+        <a href="#image">Mette un lien sur une image</a>
+    </p>
+    
+    <p>
+        <a href="#print">Imprimer la page en cours</a>
+    </p>
+
+    <!--h2 interieur-->
+    <h2 id="interieur">Une autre page du même site</h2>
+    <a href="06bis_liens_page2.html" target="_blank">cliquer ici pour aller en page 2</a>
+    <a href="#top">Remonter</a>
+    <hr>
+
+    <!--h2 #onglet-->
+    <h2 id="onglet">Un nouvel onglet</h2>
+    <a href="06bis_liens_page2.html">cliquer ici pour aller en page 2</a>
+    <a href="#top">Remonter</a>
+    <hr>
+
+    <!--h2#site-->
+    <h2 id="site">Un autre site</h2>
+    <a href="www.lepoint.fr" title="site d'actualités">l'attribut title affiche une info-bulle au survol de la souris</a>
+    <a href="#top">Remonter</a>
+
+    <!--h2#telecharger-->
+    <h2 id="telecharger">telecharger un fichier</h2>
+    <a href="../images/document(1).doc" title="site d'actualités">telecharger le document</a>
+    <a href="#top">Remonter</a>
+
+    <!--h2#visualiser-->
+    <h2 id="visualiser">Ouvrir un pdf dans mon navigateur</h2>
+    <a href="../images/image.pdf">visualiser le fichier</a>
+    <a href="#top">Remonter</a>
+
+    <!--h2#download-->
+    <h2 id="download">telecharger un pdf</h2>
+    <a href="../images/image.pdf" download>l'attribut download propose de télécharger le fichier</a>
+    <a href="#top">Remonter</a>
+
+    <!--h2#image-->
+    <h2 id="image">mettre un lien vers une image</h2>
+    <a href="https://marketplace.visualstudio.com/items?itemName=bradgashler.htmltagwrap"><img src="../images/image.jpg" alt="lion"></a>
+    <a href="#top">Remonter</a>
+
+    <!--h2#print-->
+<h2 id="print">imprimer la page en cour</h2>
+<a href="" onclick="window.print()">onclick => je detect si on a cliqué / window => la page html actuelle / print () => fonction javascript pour imprimer</a>
+<a href="#top">Remonter</a>
+<hr>
+<br>
+</body>
+</html>
