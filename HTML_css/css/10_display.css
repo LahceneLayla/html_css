@@ -1,0 +1,16 @@
+h1, h3, div, a, p, span, section{
+    text-align: center;
+    border: rgb(12, 12, 207) solid 1px;
+    background-image: url(../images/blue-captivating-colorful-endless-Favim.com-3068911.jpg);
+    color: rgb(253, 253, 253);
+}
+
+.block{
+    /*on modifie l'affichage par défaut de la balise a qui est inline pour qu'elle se comporte comme une balise block*/
+    display: block;
+}
+
+.inline{
+    /**/
+    display: inline-block;
+}
