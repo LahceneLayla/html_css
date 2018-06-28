@@ -3,7 +3,7 @@ body{
 }
 
 #contenu{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     border: 2px solid darkslategray;
 
@@ -12,11 +12,16 @@ body{
 header{
     background-color: #8e3557;
     height: 100px;
+    padding-left: 20px;
+    padding-top: 6px;
 }
 
 nav{
+
     background-color: #4a1a2c;
-    height: 30px;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 6px;
 }
 
 main{
