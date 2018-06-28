@@ -1,15 +1,9 @@
 body{
-
     margin: 10px 0;
-
     padding: 0;
-
     text-align: center;
-
     font-family: 'PT Sans', sans-serif;
-
     background-color: #dea;
-
 }
 
 div#conteneur{
@@ -20,10 +14,52 @@ div#conteneur{
     background: #fff;
 }
 
-h1#header{
+h1#header {
     height: 258px;
     background: url(../images/apple.jpg) no-repeat left top;
     margin: 0;
+}
+
+h1#header a{
+    width: 400px;
+    height: 70px;
+    display: block;
+    background: url(../images/title.gif) no-repeat; /*emmet => bug + tab */
+    position: relative; /*je régle sa position par rapport à la balise parent*/
+    left: 350px;
+    top: 15px;
+    text-indent: -5000px; /*text indent => retrait ici je sors le texte de l'ecran pour ne pas gêner l'image*/
+}
+
+ul#menu{
+    /*je donne à mon menu la même hauteur que l'image que je vais utiliser*/
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg_menu.gif) repeat-x 0 -25px; 
+    /* repeat-x => répèter l'image horizontalement (axe x) - 0 => aucun décalage à gauche - et 25px remonte l'image*/
+    list-style-type: none; /*emmet => lst + tab - on cache les puces */
+}
+
+ul#menu li{
+    float: left; /*aline les li sur la même ligne*/
+    text-align: center;/*emmet = tac + tab*/
+}
+
+ul#menu li a {
+    width: 130px;
+    line-height: 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    display: block;
+    text-decoration: none; /*supprime l'affichage par défaut d'un lien (bleu souligné)*/
+    border-right: 2px solid #dea;
+}
+
+ul#menu li a:hover{
+    background: url(../images/bg_menu.gif) repeat-x 0 0;
 }
 
 div#contenu{
@@ -31,7 +67,6 @@ div#contenu{
     background-image: url(../images/bg_page.gif);
     background-repeat: no-repeat;
     background-position: 15px 15px;
-
 }
 
 div#contenu h2{
@@ -43,4 +78,30 @@ div#contenu h2{
     border-bottom: 1px solid #9b2;
 }
 
-div#contenu
+div#contenu h3{
+    margin-left: 15px;
+    padding-left: 5px;
+    border-left: 3px solid #9b2;
+    color: #99bb22;
+}
+
+div#contenu p{
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.7em;
+}
+
+div#contenu a{
+    color: #88aa00;
+}
+div#contenu a:hover{
+    color: #99bb22;
+}
+
+p#footer{
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: #88aa00;
+}
