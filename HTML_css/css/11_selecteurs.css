@@ -1,0 +1,86 @@
+*{
+    font-family: sans-serif;
+}
+
+nav{
+    background:rgb(27, 179, 166)000;
+    color: rgb(7, 7, 7);
+    padding: 0 0.5em;
+    text-align: center; /*tac + tab*/
+    width: 100%;
+    margin: 0;
+    position: fixed; /*nav fixe en haut de la page */
+    top: 0;
+    left: 0;
+}
+
+nav a{
+    /*tous les liens de la balise nav*/
+    float: left /*effet flottant à gauche*/;
+    text-decoration: none; /*supprime mise en forme par défaut (effet sooouligné)*/
+    background-color: rgb(27, 179, 166)000;
+    color: rgb(7, 7, 7);
+    height: 2.8em;
+    line-height: 2.7em; /*hauteur de l'interligne pour centrer verticalement le text*/
+    padding: 0em 2em; /* 2 valeurs => 0 pour haut et bas & 2 pour droite et gauche */
+    font-size: 1.2em;
+    transition: 1s; /*temps de l'animation ici une transition de 1 secondes au survol de la souris un mes liens  de navigation*/
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    background: #e0a3bd;
+    color: #000;
+}    
+
+#text{
+    background-color: #cdf5e9;
+    margin-left: 10%;
+margin-right: 15%;
+list-style-image: url(../images/little_apple.gif);
+
+}
+
+#box{
+    background-image: url(../images/patron-floral-transparente-con-fondo-de-color-liso_3811-5.jpg);
+    margin-left: 10%;
+margin-right: 15%;
+}
+
+.p1, .p2{
+    background-color: #cdf5e9;
+    width: 45%;
+    height: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+   }   
+
+.p1{
+      margin-left: 3%;
+      float: left;
+}
+.p2{
+    float: right;
+    margin-right: 3%;
+    font-weight: 200%;
+}
+.container, .container4{
+background-color: #cdf5e9;
+margin-left: 10%;
+margin-right: 15%;
+}
+h3{
+    padding-top: 3%;
+    text-shadow: 1px 1px rgb(245, 8, 8);
+    
+}
+mark{
+    background-color: #e2e1b0;
+}
+
+.clear{
+    clear: both;
+}

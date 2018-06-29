@@ -1,0 +1,70 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+ul {
+/*sélectionne toutes les listes ul*/
+list-style: none; /*supprime les puces*/
+float: left;
+margin: 0; /*marges exterieurs*/
+padding: 0; /*marges interieures*/
+}
+
+.left, .right {
+    margin-top: 5em;
+}
+
+.left ul{
+    margin: 3.2em 0 0 0;
+}
+
+.left ul li {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+}
+
+.left ul li:first-child{ /*le premier li uniquement*/
+    border-top: 1px solid #ccc;
+    }
+
+    /*====fin 1ère colonne====*/
+
+    ul.list li {
+        border-left: 1px solid #ccc;
+    }
+
+    .right .change ul li {
+        border-top: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        padding: 1em;
+        width: 10em;
+        text-align: center;
+      }
+
+      .right .change ul li:first-child{
+        background-color: #5d5d5d;
+        color: #ccc;
+        font-weight: bold;
+      }
+
+      .right .change ul li:last-child{
+          border-bottom: 1px solid #ccc;
+      }
+
+      /*=====fin mise en forme tableau========*/
+
+      /*=========transition au survol souris======*/
+      .right .change ul:hover{
+          background: linear-gradient(#5d5d5d, #8a8a8a);
+        cursor: pointer;
+        transform: scale(1.4);
+        transition-duration: 2s;
+      }
+
+      .right .change ul:hover li:first-child{
+          background-color: #000;
+          
+      }
