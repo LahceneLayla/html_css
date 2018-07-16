@@ -1,0 +1,178 @@
+body{
+    background-color: #a0c4b6;
+    /* background-image: url(../img/woodPlank.jpg); */
+    max-width: 940px;
+    margin: auto;
+    padding: 10px;
+}
+
+header::before{
+    display: block;
+    height: 40px;
+}
+
+.entete{
+     /* position: absolute; */
+}
+.local, .fresh, .asperge::after{
+    clear: both;
+    display: flex;
+}
+
+.cerf{
+    image-orientation: flip;
+    width: 128px;
+    height: 128px;
+    margin-left: 49%;
+    float: inherit;
+    }
+
+#asperge{
+    position: absolute;
+    float: right;
+}
+.imagea{
+    float: right;
+    width: 76%;
+}
+.imageabis{
+    z-index: 1;
+    float: inherit;
+}
+.texta{
+    float: left;
+    padding-left: 0;
+    padding-right: 7%;
+    padding-top: 0%;
+    margin-top: -40%;
+    margin-right: 50%;
+    
+}
+
+.imagef{
+    float: left;
+    width: 50%;
+}
+
+.textf{
+    float: right;
+}
+
+.imagel{
+    float: right;
+    width: 100%;
+}
+
+.textl{
+    float: left;
+}
+
+.texta, .textf, .textl{
+    background-image: url(../img/pattern.jpg);
+    text-align: center;
+    
+}
+
+nav{
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 76%;
+    text-transform: none;
+    word-spacing: 10px;
+    }
+
+.imghead{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    text-decoration: black;
+}
+
+hr{
+    width: 50px;
+    height: 10px;
+    color: fuchsia;
+    background-color: fuchsia;
+    text-align: center;
+ }
+
+h1, h2 {
+     text-transform: uppercase;
+}
+
+/* social media */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+p > a:hover{
+    color: fuchsia;
+    text-decoration:  underline;
+}
+
+ul{
+    list-style: none;
+    margin-left: 76%;
+    padding-bottom: 10%;
+    font-size: 19px;
+    font-family: 'Caveat Brush', cursive;
+}
+
+li{
+     display: inline;
+}
+
+.social-icons a {
+    color: fuchsia;
+    text-decoration: none;
+}
+
+.fa-instagram{
+     padding:10px 14px;
+    transition: .5s;
+}
+.fa-instagram:hover{
+    background-color: #e8584d;
+}
+
+.fa-facebook {
+    padding:10px 14px;
+    transition: .5s;
+   
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding:10px 12px;
+    transition: .5s;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-google-plus {
+    padding:10px 9px;
+    transition: .5s;
+  }
+.fa-google-plus:hover {
+    background-color: #d11718;
+}
+/* end social media */
+
+h1{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 55px;
+    margin-bottom: 0%;
+}
+
+hr, .soir, .contact{
+    margin-left: 10%;
+}
+footer{
+    background-image: url(../img/pattern.jpg);
+    }
+

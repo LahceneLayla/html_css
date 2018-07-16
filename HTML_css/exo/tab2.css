@@ -1,0 +1,23 @@
+table {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+    align:center;
+    text-align: center;
+     margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 10%;
+}
+
+td {
+        border: none;
+}
+
+.a{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.b{
+padding-bottom: 15%;
+}

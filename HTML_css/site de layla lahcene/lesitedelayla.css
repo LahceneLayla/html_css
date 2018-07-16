@@ -1,0 +1,29 @@
+body{
+    background-image: url(26515867.jpg)
+
+}
+
+.typewriter h1, h2 {
+  color: #fff;
+   font-family: 'Aldrich', sans-serif;
+ overflow: hidden; 
+ /* pour que l'animation ne vienne pas avent le contenu */
+ border-right: .15em solid rgb(0, 153, 255);
+ /* la couleur du curseur */
+ white-space: nowrap; 
+ /* garde le contenu dans la même ligne */
+  margin: 0 auto;
+    text-align: center;
+    font-size: 430%;
+  animation: 
+    typing 6s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}

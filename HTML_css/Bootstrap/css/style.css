@@ -1,0 +1,32 @@
+/* on surgarge le blue de la classe .primary de bs sur tous les éléments de bs dont on s'est servis */
+
+nav.navbar.bg-primary,
+.bg-primary,
+a.btn-primary,
+a.nav-link.active{
+    background-color: #d90000 !important;
+    border-color: #d95700;
+}
+
+a.card-link,
+a.nav-link{
+    color: #d95700;
+}
+
+/* on ajoute une couleur de fond sur la page */
+body{
+    background-image: url(https://i.gifer.com/HzwS.gif);
+}
+
+/* le jumbotron */
+
+.jumbotron{
+    background-color: white !important;
+    border-top: 1px solid rgb(219, 219, 219);
+
+    /* bordure du haut qui donne un effet d'ombre venant de la nav */
+}
+
+.container{
+    background-image: url(https://78.media.tumblr.com/8e4e8bc57d3fda1b495981ac3823c9ca/tumblr_ovzhv2A5sM1w8qokno1_500.gif);
+}

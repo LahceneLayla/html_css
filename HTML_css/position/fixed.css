@@ -1,0 +1,13 @@
+#contenu{
+    border: 2px solid #336699;
+    margin: 30px 0 0 0;
+}
+
+nav{
+    background: #dea5a5;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,46 @@
+#blabla{
+    margin: 2px;
+}
+
+nav{
+    background: greenyellow;
+  width: 100%;
+  top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.b{
+    background: salmon;
+    width: 250px;
+
+}
+
+.c{
+background: lightskyblue;
+  position: absolute;
+  margin-left: 255px;
+  margin-right: 390px;
+  top: 80px;
+  
+}
+
+.d{
+    background: yellow;
+    right: 0%;
+    margin-right: 0%;
+    margin-left: 1504px;
+    margin-top: -52%;
+    position: fixed;
+}
+
+.car{
+
+}
+
+footer{
+    background: green;
+    width: 100%;
+     position: fixed;
+     bottom: 0%;
+}
