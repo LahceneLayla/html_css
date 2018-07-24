@@ -1,0 +1,337 @@
+@media screen and (max-width: 320px) {
+    @-ms-viewport { width: 320px; }
+    }
+    @media screen and (min-width: 768px) and (max-width: 959px) {
+    @-ms-viewport { width: 768px; }
+    }
+
+    @media screen and (max-width:600px) {
+        .boites {
+            width: 100%;
+        }
+    }
+
+body{
+    background-color: #d9d9d9;
+}
+
+.container{
+     width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+header{
+    flex-direction: row;
+    display: flex;
+    overflow: hidden;
+}
+
+.boutique {
+    margin-left: 25%;
+    position: relative;
+}
+
+#boutique img{
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+    margin-top: 1%;
+    padding-top: 9%;
+    float: left;
+}
+
+.soustitre{
+    color: #f583e3;
+    position: relative;
+    display: inline;
+    /* float: left;
+     margin-top: 6%; */
+     padding-top: 5%;
+    padding-bottom: 15px;
+    margin-left: -181px;
+}
+
+h1{
+    position: relative;
+    margin-left: 63px;
+    margin-top: 4%;
+    padding-top: 5%;
+    float: left;
+}
+
+h2{
+    color: #3fc9fa
+}
+
+.lundi{
+    color: #d9d9d9;
+    position: relative;
+    margin-top: 70px;
+}
+
+#aide{
+    position: relative;
+    display: block;
+    margin-left: 600px;
+   margin-left: 120px;
+    padding-bottom:50;
+    padding-top: -30px;
+    float: left;
+    /* vertical-align: middle; */
+    float: left ;
+}
+
+.aide img{
+    position: absolute;
+}
+
+.aide p{
+    position: absolute; 
+    z-index: 100;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 100%; 
+    top: 36%;
+    color: #3fc9fa;
+    right: auto;
+    left : -9%;
+}
+
+.aide p::before{
+    display: inline-block;
+    vertical-align: middle; 
+    height: auto;
+}
+
+.clearfix{
+    position: absolute;
+    width: 12%;
+    height: 88px;
+    margin-left: 84%;
+    margin-bottom: 2%;
+    border: #3fc9fa solid 2px;
+    display: inline-block;
+    background-color: #3fc9fa;
+    padding: 11px;
+    right: 198px;
+    margin-top: 0px;
+    /* position: absolute;
+    width:30%; 
+    height:86px;
+    margin-left: 84%;
+    margin-bottom: 2%; */
+    /* border: #3fc9fa solid 2px; */
+    /* display: inline-block;
+    background-color: #3fc9fa;
+    padding: 10px;
+    right: 0px; */
+}
+
+
+.clearfix img{
+    background-position: 12%;
+}
+
+.compte{
+    text-align: center;
+}
+
+#hrblanc{
+     height: 2px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+}
+
+.bandeau img{
+    width: 100%;
+    /*object-fit: cover; */
+}
+
+.paiment{
+    margin-left: 25px;
+}
+
+.paiment h3{
+    position: relative;
+    color: #3fc9fa;
+    /* text-align: center; */
+    /* float: left; */
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.paiment img{
+    position: absolute;
+    display: block;
+}
+
+/* .clear{
+    clear: both;
+} */
+
+
+/* style nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3fc9fa;
+}
+
+li {
+    float: left;
+     text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 85px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #f583e3;
+}
+
+/* .separation{
+    position: relative;
+    height: 33px;
+    width: 2px;
+} */
+
+.nous{
+   position: relative;
+   /* margin-left: 18%; */
+   margin-top: auto;
+   float: left;
+   margin: -46px;
+   margin-left: 329px;
+   margin-right: 61px;
+}
+
+.nous h3{
+    color: #3fc9fa;
+    float: left;
+    position: absolute;
+    margin-right: -150px;
+    margin-top: -58.283px;
+}
+
+.nous p{
+    margin-top: -15px;
+}
+
+
+
+/* les vettements a vendre */
+
+.boites {
+    float: left;
+    width: 25.33%;
+    height: 25%;
+    border: solid 1px #555;
+    box-shadow: 0 0 15px 2px grey;
+     border-radius: 20px; /* 
+     word-wrap: break-word; */
+     color: black;
+     margin: 43.5px;
+    /* border-color: 2px solid black; */
+}
+
+.boites img{
+    vertical-align:middle;
+}
+
+.boites p{
+    vertical-align:middle
+}
+
+.boites a{
+    color: #3fc9fa;
+    font-size: 25px;
+    float: right;
+    margin-right: 14px;
+}
+
+.shadow{
+    background: #d9d9d9;
+    opacity: 0.6;
+    position: relative;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.shadow h2{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.boites img{
+    display: inline-block;
+}
+
+.row{
+    margin-bottom: 60px;
+   margin-top: 80px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* .services h3{
+    position: absolute;
+    text-align: left;
+    margin-right: 415px;
+    margin-top: -113.283px;
+} */
+
+.camion {
+    position: absolute;
+    float: right;
+    margin-left: 1027px;
+    margin-top: -122px;
+
+}
+
+/* .camion img{
+    margin-top: 40px;
+}
+.camion p {
+    display: inline-block;
+    position: absolute;
+    margin-bottom: -22px;
+    
+} */
+
+/* .flech{
+    position: absolute;
+    float: right;
+    margin: 5px;
+    display: inline-block;
+} */
+/* .flech img{
+     margin-left: 1008px;
+} */
+
+.footer{
+    position: absolute;
+    background-color: #3fc9fa;
+    color: white;
+    text-align: center;
+    margin-top: 480px;
+    width: 79.5%;
+}

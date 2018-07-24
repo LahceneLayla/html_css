@@ -1,0 +1,104 @@
+*{
+   box-sizing: border-box;
+}
+
+/* NORMALIZE */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, img, ins, kbd,
+q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav,
+output, ruby, section, summary, time, mark, audio, video{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* REGLAGE GENERAUX */
+
+body{
+   background-image: url(../../images/fondo-transparente-del-trebol_1053-719.jpg);
+   scroll-behavior: smooth; /*  effet de scroll quand on clique sur une ancre - ne marche que sur FIREFOX, Chrome et Opéra dernières versions */
+}
+
+h1{
+   font-size: 45px; /* EMMET => fz45px + tab */
+   font-family: 'Anton', sans-serif;
+   color: #2980b9;
+   text-align: center; /* EMMET => + tab */
+   letter-spacing: 1px; /* EMMET => + tab */
+}
+
+h2{
+   font-size: 35px;
+   color: #2c3e50;
+   padding: 20px; /* EMMET => + tab */
+   font-weight: bold; /* EMMET => + tab */
+   text-shadow: 1px 1px 2px #aaa; /* 4 valeurs : ombre horizontale, verticale, zone de flou, couleur de l'ombre */
+}
+
+h3{
+   font-size: 22px;
+   color: #2c3e50;
+   padding: 15px;
+   text-shadow: 1px 1px 2px #aaa;
+}
+
+h4{
+   text-align: center;
+   margin-top: 30px; /* EMMET => mt30 + tab */
+}
+
+blockquote{
+   font-style: italic;
+   font-size: 120%;
+}
+
+strong{
+   font-weight: bold; /*  EMMET => fwb + tab */
+}
+/* ----- HEADER ----- */
+header{
+   background: #2c3e50;
+   height: 175px; /*EMMET => h175 + tab*/
+}
+
+#logo{
+   float: left;  /* EMMET => fl + tab */
+   width: 25%;
+   background: #2c3e50;
+   padding: 15px;
+   text-align: center;
+}
+
+#slogan{
+   float: left;
+   width: 50%;
+   background: #2c3e50;
+   padding-top: 50px; /* EMMET => pt50 + tab */
+}
+
+#social{
+   float: left;
+   width: 25%;
+   }
+   #social i{
+    background: #2c3e50;
+    font-size: 30px;
+    text-align: right; /* EMMET => tar + tab */
+    padding: 15px 30px 0 0;
+    display: block; /* EMMET => db + tab */
+   }
+
+header a{
+   color: #10828c;
+   text-decoration: none; /* EMMET => tdn + tab */
+}/* ----- FIN HEADER ----- */
