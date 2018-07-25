@@ -25,21 +25,21 @@ output, ruby, section, summary, time, mark, audio, video{
 /* REGLAGE GENERAUX */
 
 body{
-   background-image: url(../../images/fondo-transparente-del-trebol_1053-719.jpg);
+   background-image: url(../img/fleursblues.jpg);
    scroll-behavior: smooth; /*  effet de scroll quand on clique sur une ancre - ne marche que sur FIREFOX, Chrome et Opéra dernières versions */
 }
 
 h1{
-   font-size: 45px; /* EMMET => fz45px + tab */
-   font-family: 'Anton', sans-serif;
-   color: #2980b9;
+   font-size: 50px; /* EMMET => fz45px + tab */
+  font-family: 'Courgette', cursive;
+   color: #062424;
    text-align: center; /* EMMET => + tab */
    letter-spacing: 1px; /* EMMET => + tab */
 }
 
 h2{
    font-size: 35px;
-   color: #2c3e50;
+   color: #a6ffff;
    padding: 20px; /* EMMET => + tab */
    font-weight: bold; /* EMMET => + tab */
    text-shadow: 1px 1px 2px #aaa; /* 4 valeurs : ombre horizontale, verticale, zone de flou, couleur de l'ombre */
@@ -67,14 +67,14 @@ strong{
 }
 /* ----- HEADER ----- */
 header{
-   background: #2c3e50;
+   background-image: url(../../images/depositphotos_27215877-stock-illustration-seamless-background-with-skulls-and.jpg);
    height: 175px; /*EMMET => h175 + tab*/
 }
 
 #logo{
    float: left;  /* EMMET => fl + tab */
    width: 25%;
-   background: #2c3e50;
+   /* background: #2c3e50; */
    padding: 15px;
    text-align: center;
 }
@@ -82,7 +82,7 @@ header{
 #slogan{
    float: left;
    width: 50%;
-   background: #2c3e50;
+   /* background: #2c3e50; */
    padding-top: 50px; /* EMMET => pt50 + tab */
 }
 
@@ -91,7 +91,7 @@ header{
    width: 25%;
    }
    #social i{
-    background: #2c3e50;
+    /* background: #2c3e50; */
     font-size: 30px;
     text-align: right; /* EMMET => tar + tab */
     padding: 15px 30px 0 0;
@@ -99,6 +99,192 @@ header{
    }
 
 header a{
-   color: #10828c;
+   color: #f01717;
    text-decoration: none; /* EMMET => tdn + tab */
-}/* ----- FIN HEADER ----- */
+}
+
+/* ----- FIN HEADER ----- */
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #125c77; */
+    /* border: #f01717 solid 3px; */
+
+}
+
+nav a {
+    float: left;
+     text-align: center;
+      border: rgb(14, 148, 25) solid 3px;
+      background-color: rgb(100, 237, 225);
+      margin: 10px;
+      font-size: 20px;
+      border-bottom-right-radius: 20px;
+      border-top-left-radius: 20px;
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 10px 60px;
+     text-decoration: none;
+    font-family: 'Courgette', cursive;
+}
+.activ{
+    background-color: rgb(241, 156, 199);
+}
+
+ a:hover {
+    background-color: #f5ea83;
+}
+
+
+
+
+main{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    top:0;
+    float: left;
+    position: relative;
+    background-color: #f2fc71;
+}
+.mainbis{
+     height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    top:0;
+    float: left;
+    position: relative;
+    background-color: #17c5f0;
+}
+
+.bas{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    /* top:0; */
+    float: left;
+    background-color: #f01717;
+}
+
+/* retour haut */
+.back-to-top {
+ background: none;
+ margin: 0;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ width: 70px;
+ height: 70px;
+ z-index: 100;
+ display: none;
+ text-decoration: none;
+ color: #ffffff;
+ background-color: #ff9000;
+}
+.back-to-top i {
+   font-size: 60px;
+ }
+/* fin retour haut */
+
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 4em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:4em;
+    line-height: 1;
+    right: inherit;
+    bottom:-0.5em;
+    content: "\201D";
+}
+ul{
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.mainbis, .bas{
+    position: relative;
+}
+
+
+/* ********************************************************************** */
+
+/*************DÉBUT PAGE SÉLECTEURS*************/
+.select p{
+    color:red;
+}
+.select p:first-of-type{
+    color :pink;
+}
+/* La pseudo-classe :first-of-type permet de cibler le premier élément dont l'élément parent est d'un type donné (ex. cibler le premier élément fils d'un div). */
+.select p:last-of-type{
+    color: #a6d6c3;
+}
+/* La pseudo-classe :last-of-type cible un élément qui est le dernier enfant d'un type donné dans la liste des enfants de l'élément parent. */
+
+.select p:nth-of-type(5),.select p:nth-of-type(6){
+    color :yellow;
+}
+.select div:not(.zoneB){
+    font-weight: bold;
+    font-size :30px;
+}
+.select .zoneA{
+    color:#f56f56;
+}
+.select .zoneB{
+    color: #996633;
+}
+.select .zoneB .couleurBleu{
+    color:blue;
+    font-size: 16px;
+}
+.select #zoneC{
+    color: #98f32f;
+}
+.select #zoneD span{
+    color :#32ff32;
+    font-size: 30px;
+    font-style: italic;
+}
+/****************FIN PAGE SELECTEURS***************/
+
+
+.selectimg img{
+    width: 100%;
+    /* position: relative; */
+}
+
+.selectimg h2{
+    background-color: #dfdfdf;
+    color: black;
+}
+
+
+.clear{
+    clear: both;
+}
