@@ -1,0 +1,160 @@
+body{
+    background-color: #fff;
+}
+#haut{
+   background-color: #616161 ;
+    color: white;
+    display: inline-block;
+    width: 100%;
+
+}
+tr{
+    width: 100%;
+}
+.haut1{
+     color: white;
+     background-color: #616161 ;
+    float: left;
+    position: absolute;
+
+}
+.haut2{
+     color: white;
+     background-color: #616161 ;
+    position: absolute;
+
+}
+.haut3{
+position: absolute;
+margin-right: 50px;
+float: right;
+}
+header{
+    width: 100%;
+margin-bottom: 200px;
+border: tomato;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 50px;
+    bottom: 762.5px;
+}
+.logo p{
+    color: #616161;
+}
+.devis{
+    position: absolute;
+    margin-left: 1458px;
+    bottom: 805.5px;
+}
+
+.conseil{
+    position: absolute;
+    margin-left: 1458px;
+    bottom: 713.5px;
+}
+
+.compte{
+    position: absolute;
+    bottom: 805.5px;
+    left: 1713px;
+}
+
+.panier{
+    position: absolute;
+    left:1713px;
+    bottom: 713.5px;
+}
+.panier img{
+    width: 50px;
+    height: 50px;
+}
+
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    border:#e0e0e0 solid 1px;
+      background-color: #f4f4f4;
+}
+
+nav a {
+    float: left;
+     text-align: center;
+ border:#e0e0e0 solid 1px;
+      font-size: 18px;
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 10px 60px;
+     text-decoration: none;
+}
+nav .rechercher{
+        float: right;
+     text-align: center;
+      background-color: #f4f4f4;
+      font-size: 18px;
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 10px 60px;
+}
+main{
+    height: 100%;
+    width: 80%; 
+    min-height:100%;
+    top:0;
+    float: left;
+    position: relative;
+}
+.slider1 {
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.6);
+    right: 565.6px;
+    bottom: 119.5;
+}
+.slider1 img{
+    width: 832px;
+    height: 546px;
+}
+.slider1p{
+      position: absolute;
+      display: inline;
+    z-index: 100;
+    bottom:-13.883px;
+    padding-right:2px;
+    left: 0;
+    right: 0px;
+    top: 503.383px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.fontslider{
+    position: absolute;
+    z-index: 100;
+    display: inline;
+    bottom: -5.8px;
+    left: 663px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.carrelage3 img{
+    margin-right: -106px;
+    margin-left: 1003px;
+    padding-left: 224px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    height: 288px;
+    width: 288px;
+}
+.carrelage13 img{
+    margin-right: -106px;
+    margin-left: 1003px;
+    padding-left: 224px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+       height: 288px;
+    width: 288px;
+}
