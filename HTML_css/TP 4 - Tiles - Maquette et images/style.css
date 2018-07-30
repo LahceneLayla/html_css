@@ -8,27 +8,41 @@ body{
     width: 100%;
 
 }
-tr{
-    width: 100%;
-}
+
 .haut1{
      color: white;
      background-color: #616161 ;
     float: left;
     position: absolute;
+    right: 1165.58px;
+    bottom: 907.5px;
+    margin-right: 0px;
+    padding-right: 501px;
+    padding-left: 26px;
 
 }
 .haut2{
      color: white;
      background-color: #616161 ;
     position: absolute;
+    right: 622.75px;
+    bottom: 907.5px;
+    margin-right: 14px;
+    padding-right: 215px;
+
 
 }
 .haut3{
 position: absolute;
-margin-right: 50px;
+margin-right: 37px;
+padding-right: 131px;
+padding-left: 338px;
+bottom: 907.5px;
+right: 15.233px;
 float: right;
+background-color: #616161 ;
 }
+
 header{
     width: 100%;
 margin-bottom: 200px;
@@ -45,30 +59,70 @@ border: tomato;
 }
 .devis{
     position: absolute;
-    margin-left: 1458px;
+    margin-left: 1456px;
     bottom: 805.5px;
 }
-
+.devis img{
+    margin-left: -52px;
+    margin-bottom: -21px;
+}
+.devis p{
+    line-height: 1px;
+}
 .conseil{
     position: absolute;
     margin-left: 1458px;
     bottom: 713.5px;
+    top: 149.5px;
 }
-
+.conseil img{
+    position: absolute;
+    margin-right: -1px;
+    margin-bottom: -28px;
+    margin-left: -59px;
+    margin-top: 2px;
+    padding-top: -5px;
+    bottom: 68px;
+}
+.conseil p{
+    line-height: 2px;
+}
 .compte{
     position: absolute;
     bottom: 805.5px;
     left: 1713px;
 }
+.compte{
+    line-height: 2px;
+}
+.compte img{
+    padding-left: 54px;
+}
 
 .panier{
     position: absolute;
-    left:1713px;
+    left: 1554px;
+    top: 191.5px;
     bottom: 713.5px;
+    margin-bottom: 0;
+    margin-left: 112px;
+    padding-left: 6px;
+    padding-top: -14px;
+    padding-bottom: 11px;
+    margin-top: -36px;
+}
+.panier p{
+     line-height: 2px;
 }
 .panier img{
     width: 50px;
     height: 50px;
+    margin-right: 19px;
+    padding-right: -2px;
+    margin-left: 112px;
+    margin-top: -34px;
+    margin-bottom: 12px;
+    padding-left: 8px;
 }
 
 
@@ -115,11 +169,12 @@ main{
     z-index: 100;
     background-color: rgba(255, 255, 255, 0.6);
     right: 565.6px;
-    bottom: 119.5;
+   bottom: 0.5px;
 }
 .slider1 img{
     width: 832px;
     height: 546px;
+    
 }
 .slider1p{
       position: absolute;
@@ -146,8 +201,19 @@ main{
     padding-left: 224px;
     margin-bottom: 0px;
     margin-top: 20px;
-    height: 288px;
-    width: 288px;
+    height: 260px;
+    width: 260px;
+}
+.carrelage3p{
+      position: absolute;
+      display: inline;
+    z-index: 100;
+    bottom:262.617px;
+    left: 1227px;
+    color: white;
+    right: 24px;
+    top: 232.383px;
+    background-color: rgb(189, 31, 136);
 }
 .carrelage13 img{
     margin-right: -106px;
@@ -155,6 +221,394 @@ main{
     padding-left: 224px;
     margin-bottom: 0px;
     margin-top: 20px;
-       height: 288px;
-    width: 288px;
+       height: 250px;
+    width: 250px;
+}
+.carrelage13p{
+      position: absolute;
+      display: inline;
+    z-index: 100;
+    bottom:-9.383px;
+    margin-bottom: 14px;
+    left: 1227px;
+    color: white;
+    right: 33px;
+    top: 506.383px;
+    background-color: rgb(189, 31, 136);
+}
+.camion, .arg, .smile, .euro{
+position: absolute;
+display: inline-block;
+float: left;
+bottom: -101px;
+color: #616161;
+}
+.arg{
+    right: 1194.65px;
+}
+.camion{
+    right: 846.333px;
+}
+.smile{
+    right: 384.183px;
+}
+.euro{
+    right: -207.683px;
+    bottom: -82px;
+}
+
+.produit p{
+     position: absolute;
+      display: inline;
+      text-align: center;
+      bottom: -202px;
+      right: 1292.38px;
+      margin-top: 14px;
+      margin-bottom: 13px;
+      margin-right: 0px;
+      left: 78px;
+      top: 697px;
+
+    color: white;
+    background-color: rgb(189, 31, 136);
+}
+.triangle{
+    position: absolute;
+    display: inline;
+    border-top: 18px solid transparent;
+    border-bottom-width: 17px solid transparent;
+    border-top-width: 50px;
+    right: 1262.6px;
+    bottom: -202px;
+    border-left: 30px solid rgb(189, 31, 136);
+}
+.gris{
+    height: 1px;
+    width: 1645px;
+    background-color: #616161;
+    position: absolute;
+    display: inline;
+    top: 748px;
+right: 1219.6px;
+left: 240px;
+}
+.ciment{
+    position: absolute;
+    border-right: #616161 solid 1px;
+    border-left: #616161 solid 1px;
+    display: block;
+    bottom: -637px;
+    right: 1030.6px;
+    height: 403.5px;
+    width: 402px;
+  
+
+}
+.ciment p{
+position: absolute;
+right: 112.683px;
+bottom: -42px;
+
+}
+.ciment h4{
+position: absolute;
+color: rgb(189, 31, 136);
+
+right: 159.333px;
+top: 416.5px;
+}
+.detail{
+position: absolute;
+right: -39px;
+bottom: -127px;
+width: 450px;
+
+}
+
+
+
+
+#parallelogram p{
+bottom: 327px;
+left: -46px;
+right: 263.6px;
+text-align: center;
+overflow: hidden;
+color: white;
+background-color: rgb(189, 31, 136);
+transform: rotate(-46deg);
+position: absolute;
+
+}
+.cimenta img{
+    z-index: 100;
+}
+
+.cimenta{
+    position: absolute;
+    border-right: #616161 solid 1px;
+    border-left: #616161 solid 1px;
+    display: block;
+    bottom: -637px;
+    right: 307.6px;
+    height: 403.5px;
+    width: 402px;
+    left: 752px;
+    z-index: 100;
+}
+.cimenta p{
+position: absolute;
+right: 99.683px;
+bottom: -42px;
+}
+.cimenta h4{
+position: absolute;
+color: rgb(189, 31, 136);
+right: 141.333px;
+top: 416.5px;
+}
+.detaila{
+position: absolute;
+right: -48px;
+bottom: -127px;
+width: 450px;
+}
+
+.cimentb{
+    position: absolute;
+    border-right: #616161 solid 1px;
+    border-left: #616161 solid 1px;
+    display: block;
+    bottom: -637px;
+    right: -242.4px;
+    height: 403.5px;
+    width: 402px;
+}
+.cimentb p{
+position: absolute;
+right: 91.683px;
+bottom: -42px;
+}
+.cimentb h4{
+position: absolute;
+color: rgb(189, 31, 136);
+right: 129.333px;
+top: 416.5px;
+}
+.detailb{
+position: absolute;
+right: -48px;
+bottom: -127px;
+width: 450px;
+}
+/* ***************************** */
+.cimentc{
+    position: absolute;
+    border-right: #616161 solid 1px;
+    border-left: #616161 solid 1px;
+    display: block;
+    right: 1030.6px;
+    height: 403.5px;
+    width: 402px;
+    bottom: -1208px;
+}
+.cimentc p{
+position: absolute;
+right: 112.683px;
+bottom: -42px;
+
+}
+.cimentc h4{
+position: absolute;
+color: rgb(189, 31, 136);
+
+right: 159.333px;
+top: 416.5px;
+}
+.detailc{
+position: absolute;
+right: -39px;
+bottom: -127px;
+width: 450px;
+}
+
+.cimentd{
+    position: absolute;
+    border-right: #616161 solid 1px;
+    border-left: #616161 solid 1px;
+    display: block;
+     bottom: -1208px;
+    right: 307.6px;
+    height: 403.5px;
+    width: 402px;
+    left: 752px;
+}
+.cimentd p{
+position: absolute;
+right: 99.683px;
+bottom: -42px;
+}
+.cimentd h4{
+position: absolute;
+color: rgb(189, 31, 136);
+right: 141.333px;
+top: 416.5px;
+}
+.detaild{
+position: absolute;
+right: -48px;
+bottom: -127px;
+width: 450px;
+}
+
+.cimente{
+    position: absolute;
+    border-right: #616161 solid 1px;
+    border-left: #616161 solid 1px;
+    display: block;
+     bottom: -1208px;
+    right: -242.4px;
+    height: 403.5px;
+    width: 402px;
+}
+.cimente p{
+position: absolute;
+right: 91.683px;
+bottom: -42px;
+}
+.cimente h4{
+position: absolute;
+color: rgb(189, 31, 136);
+right: 129.333px;
+top: 416.5px;
+}
+.detaile{
+position: absolute;
+right: -48px;
+bottom: -127px;
+width: 450px;
+}
+/* ********************** */
+.cimentf{
+    position: absolute;
+    border-right: #616161 solid 1px;
+    border-left: #616161 solid 1px;
+    display: block;
+    right: 1030.6px;
+    height: 403.5px;
+    width: 402px;
+    bottom: -1778px;
+}
+.cimentf p{
+position: absolute;
+right: 112.683px;
+bottom: -42px;
+
+}
+.cimentf h4{
+position: absolute;
+color: rgb(189, 31, 136);
+
+right: 159.333px;
+top: 416.5px;
+}
+.detailf{
+position: absolute;
+right: -39px;
+bottom: -127px;
+width: 450px;
+}
+
+.cimentg{
+    position: absolute;
+    border-right: #616161 solid 1px;
+    border-left: #616161 solid 1px;
+    display: block;
+     bottom: -1778px;
+    right: 307.6px;
+    height: 403.5px;
+    width: 402px;
+    left: 752px;
+}
+.cimentg p{
+position: absolute;
+right: 99.683px;
+bottom: -42px;
+}
+.cimentg h4{
+position: absolute;
+color: rgb(189, 31, 136);
+right: 141.333px;
+top: 416.5px;
+}
+.detailg{
+position: absolute;
+right: -48px;
+bottom: -127px;
+width: 450px;
+}
+
+.cimenth{
+    position: absolute;
+    border-right: #616161 solid 1px;
+    border-left: #616161 solid 1px;
+    display: block;
+     bottom: -1778px;
+    right: -242.4px;
+    height: 403.5px;
+    width: 402px;
+}
+.cimenth p{
+position: absolute;
+right: 91.683px;
+bottom: -42px;
+}
+.cimenth h4{
+position: absolute;
+color: rgb(189, 31, 136);
+right: 129.333px;
+top: 416.5px;
+}
+.detailh{
+position: absolute;
+right: -48px;
+bottom: -127px;
+width: 450px;
+}
+
+.eshop{
+     position: absolute;
+      /* display: inline; */
+      text-align: center;
+      bottom: -2021px;
+      right: 1229.38px;
+      margin-top: 14px;
+      margin-bottom: 13px;
+      margin-right: 0px;
+      left: 78px;
+      top: 2503px;
+         z-index: 100;
+    color: white;
+    background-color: rgb(189, 31, 136);
+}
+.trianglea{
+    position: absolute;
+     z-index: 100;
+    bottom: -1px;
+    top: 1px;
+    right: 95.217px;
+    left: 202px;
+    border-bottom-width: 24px;
+    border-top-width: 25px;
+    border-top: 25px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 30px solid rgb(189, 31, 136);
+}
+#rectangle {
+    width: 1676px;
+    height: 473px;
+    top: 26px;
+   overflow: hidden;
+    position: absolute;
+    background: #616161;
 }
