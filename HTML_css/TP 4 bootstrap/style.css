@@ -1,0 +1,28 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.carousel{
+    height: 600px;
+    width: 700px;
+    position: relative;
+    left: 10px;
+}
+.card-groupj{
+    float: left;
+    position: relative;
+    background: lightslategray;
+    width: 100%;
+}
+.card-footer{
+    text-align: center;
+}
+.card-group{
+    float: right;
+
+}

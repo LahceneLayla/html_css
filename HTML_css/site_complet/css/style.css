@@ -690,3 +690,10 @@ td {
 .clear{
     clear: both;
 }
+/* **********les listes********************* */
+.fruit li{
+    display : list-item;
+    float: left;
+    margin: 9px 17px 37px 101px;
+ list-style-image : url(../../images/little_apple.gif);
+}

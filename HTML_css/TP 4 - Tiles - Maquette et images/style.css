@@ -56,6 +56,9 @@ border: tomato;
 }
 .logo p{
     color: #616161;
+    display: list-item;
+    list-style:none;
+
 }
 .devis{
     position: absolute;
@@ -154,7 +157,8 @@ nav .rechercher{
      display: block;
      color: black;
      text-align: center;
-     padding: 10px 60px;
+     padding-top: 12px;
+     padding-right: 52px;
 }
 main{
     height: 100%;
@@ -268,7 +272,6 @@ color: #616161;
       margin-right: 0px;
       left: 78px;
       top: 697px;
-
     color: white;
     background-color: rgb(189, 31, 136);
 }
@@ -338,7 +341,18 @@ color: white;
 background-color: rgb(189, 31, 136);
 transform: rotate(-46deg);
 position: absolute;
+}
+.parallelogramdiv{
+bottom: 154px;
+left: 18px;
 
+width: 47px;
+height: 334px;
+text-align: center;
+overflow: hidden;
+background-color: rgb(31, 165, 189);
+transform: rotate(-138deg);
+position: absolute;
 }
 .cimenta img{
     z-index: 100;
@@ -576,11 +590,11 @@ bottom: -127px;
 width: 450px;
 }
 
-.eshop{
+.eshop p{
      position: absolute;
       /* display: inline; */
       text-align: center;
-      bottom: -2021px;
+      bottom: -2009px;
       right: 1229.38px;
       margin-top: 14px;
       margin-bottom: 13px;
@@ -594,21 +608,243 @@ width: 450px;
 .trianglea{
     position: absolute;
      z-index: 100;
-    bottom: -1px;
-    top: 1px;
-    right: 95.217px;
-    left: 202px;
-    border-bottom-width: 24px;
-    border-top-width: 25px;
+   bottom: 507px;
+   top: 2517px;
+    right: 89.217px;
+    left: 280px;
     border-top: 25px solid transparent;
     border-bottom: 24px solid transparent;
     border-left: 30px solid rgb(189, 31, 136);
+    border-top-width: 22px;
+    border-left-width: 33px;
+    border-bottom-width: 15px;
 }
 #rectangle {
     width: 1676px;
     height: 473px;
-    top: 26px;
+    top: 2540px;
+    right: -245.4px;
    overflow: hidden;
     position: absolute;
     background: #616161;
+}
+.imga, .imgb, .imgc, .imgd, .imge{
+    background: url(img/sprites.png);
+      background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+}
+.imga, .imgb, .imgc, .imgd, .imge p{
+     overflow-wrap: break-word;
+     hyphens: auto;
+     text-align: left;
+}
+.imga{
+    height: 128px;
+  background-position: -5px -5px;
+  /* margin-left: -1178px; */
+  padding-left: 64px;
+  margin-top: 50px;
+  left: 25px;
+}
+.imgb{
+      background-position: 8px 0px;
+      left: 16px;
+      bottom: 174.433px;padding-left: 61px;
+}
+.imgc{
+    left: 21px;
+    bottom: 16.433px;
+    padding-left: 77px;
+}
+.imgd{
+    left: 518px;
+    right: 864px;
+    bottom: 192.433px;
+    padding-left: 69px;
+}
+.imge{
+bottom: 156.433px;
+left: 1122px;
+padding-left: 81px;
+margin-right: 152px;
+right: 25px;
+}
+
+.blanc1, .blanc2{
+ background-color: white;
+  height: 318px;
+ width: 1px;
+ position: absolute;
+}
+
+.blanc1{
+    right: 1194px;
+    bottom: 73px;
+}
+.blanc2{
+    left: 1027px;
+    bottom: 73px;
+}
+.rose1{
+    color: rgb(189, 31, 136);
+    position: absolute;
+    margin-top: 443px;
+    right: 670.25px;
+}
+
+/* .foooter{
+     width: 1676px;
+    height: 573px;
+    top: 56px;
+   overflow: hidden;
+    position: absolute;
+    background: #b83737;
+} */
+.carte{
+    right: 1580.83px;
+    left: 22.6px;
+    display: inline-block;
+    margin-top: 3049px;
+    margin-left: 81px;
+    padding-left: 2px;
+    position: absolute;
+}
+.carte iframe{
+    clear: both;
+    display: inline-block;
+    position: absolute;
+    bottom: 124px;
+    height: 70px;
+    width: 70px;
+    margin-bottom: -120px;
+}
+
+.carte h4, p{
+    display: inline-block;
+    margin-right: 28px;
+    margin-left: 80px;
+}
+
+.pareg{
+     display: inline-block;
+    margin-left: 80px;
+    margin-top: 3049px;
+    position: absolute;
+    left: -82.433px;
+    bottom: -99px;
+    margin-right: 38px;
+}
+.gris1{
+    height: 2px;
+    width: 243px;
+    background: #858585;
+}
+
+.infos{
+        right: 1186.83px;
+    left: 22.6px;
+    display: inline-block;
+    margin-top: 3049px;
+    margin-left: 443px;
+    padding-left: 2px;
+    position: absolute;
+}
+
+.infos h4{
+    text-align: center;
+}
+.infos p{
+    text-align: left;
+    /* cursor: url('img/smiling-face-with-halo.png'); */
+}
+.gris2{
+    height: 2px;
+    width: 243px;
+    background: #858585;
+}
+
+.qualite{
+    position: absolute;
+    bottom: -2464.07px;
+    right: 761px;
+    text-align: center;
+}
+.qualite img{
+    position: absolute;
+    left: 38.5px;
+    bottom: -261px;
+}
+.gris3{
+    height: 2px;
+    width: 243px;
+    background: #858585;
+}
+.partage{
+    position: absolute;
+    bottom: 487.433px;
+    top: 3323px;
+    right: 455px;
+}
+.partage img{
+    position: absolute;
+    bottom: -492.567px;
+}
+.gris4{
+    height: 2px;
+    width: 243px;
+    background: #858585;
+}
+
+
+.container{
+    position: absolute;
+    top: 3832px;
+    right: 154.43px;
+    bottom: -3155.83px;
+}
+.container p{
+    position: absolute;
+    margin-left: -141px;
+    bottom: 183px;
+    top: -2.167px;
+    right: 72.717px;
+
+    left: -243.033px;
+    right: 7.717px;
+    
+}
+.container h4{
+    position: absolute;
+    right: 24.4px;
+    bottom: 220.267px;
+    margin-right: 1px;
+    left: -390px;
+}
+
+/* ***************************** */
+.containera{
+    position: absolute;
+    top: 3832px;
+    right: 154.43px;
+    bottom: -3155.83px;
+}
+.containera p{
+    position: absolute;
+    margin-left: -141px;
+    bottom: 183px;
+    top: -2.167px;
+    right: 72.717px;
+
+    left: -243.033px;
+    right: 7.717px;
+    
+}
+.containera h4{
+    position: absolute;
+    right: 24.4px;
+    bottom: 220.267px;
+    margin-right: 1px;
+    left: -390px;
 }
